@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(file:///C:/Users/2302672/Downloads/Personal/image/img1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7e1e1cc;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgb(223, 58, 58);
+}
+h2{
+    text-align: center;
+}
+.form-group{
+    margin: 15px 0;
+}
+label{
+    display: block;
+}
+select,input[type="date"],input[type=time],input[type=number]{
+    
+    
+    width: 100%;
+    padding: 6px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    border-radius:5px;
+}
+button{
+       
+    background-color: #7de6e6;
+    color: #dd2b10;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+

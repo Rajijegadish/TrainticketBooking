@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Ticket Booking</title>
+    <link rel="stylesheet" type="text/css"href="ticket.css">
+   
+</head>
+<body>
+    <div class="container">
+        <h2>Ticket Booking</h2>
+        <form action="successful.html">
+            <div class="form-group">
+                <label for="train">Select Train:</label>
+                <select id="train" name="train" required>
+                    <option value="train 1">Train 1</option>
+                    <option value="train 2">Train 2</option>
+                    <option value="train 3">Train 3</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="date">Select Date:</label>
+                <input type="date" id="date"name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Select Time:</label>
+                <input type="time" id="time"name="time" required>
+            </div>
+            <div class="form-group">
+                <label for="tickets">Number of Tickets:</label>
+                <input type="number" id="tickets"name="tickets" min="10" max="50" required>
+            </div>
+            <div class="form-group">
+                
+                <button type="submit">Ticket Booking </button>
+                
+                
+            </div>
+           
+        
+        </form>
+        
+    </div>
+</body>
+</html>
